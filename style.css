@@ -1,0 +1,100 @@
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+#rock {
+    height: 175px;
+    width: 175px;
+    background-image: url("rock.jpg");
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+#paper {
+    height: 175px;
+    width: 175px;
+    background-image: url("paper.jpg");
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+#scissors {
+    height: 175px;
+    width: 175px;
+    background-image: url("scissors.jpg");
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+h1 {
+    background-color:#112A46;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    margin-top: 0;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    border-color:  black;
+    border-width: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* transform: scale(1.05); */
+}
+.scoreboard {
+    background-color:#112A46;
+    padding: 20px;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .your-score, .computer-score {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #play {
+    color: #4CAF50;
+    margin: 40px 0;
+    text-align: center;
+    width: 100%;
+    font-size:2rem ;
+    font-weight: 700;
+  }
+  
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  #reset-btn{
+    margin-top: 5px;
+    display: block;
+    align-items: center;
+    height: 2rem;
+    background-color: #4CAF50;
+  }
+  #reset-btn:hover{
+    opacity: 2;
+    cursor: pointer;
+  }
+  #reset-result{
+    display: flex;
+    
+  }
